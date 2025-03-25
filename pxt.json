@@ -9,8 +9,6 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts",
         "2025/tutorials/gd-name-tag.md",
         "2025/tutorials/gd-schere-stein-papier.md",
         "2025/tutorials/gd-rotes-gruenes-licht.md",
