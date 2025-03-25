@@ -14,7 +14,8 @@
         "2025/tutorials/gd-name-tag.md",
         "2025/tutorials/gd-schere-stein-papier.md",
         "2025/tutorials/gd-rotes-gruenes-licht.md",
-        "2025/pages/gd-rotes-gruenes-licht.md"
+        "2025/pages/gd-rotes-gruenes-licht.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "test.ts"
