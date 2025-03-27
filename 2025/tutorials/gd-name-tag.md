@@ -10,7 +10,7 @@ Zeige deinen Namen mit 💡 LEDs! 💡  Programmiere den @boardname@ damit er de
  
 Klicke unter Werkzeuge auf die Kategorie ``||basic:Grundlagen||``.
 Ziehe einen ``||basic:zeige Text||``-Block in den ``||basic:dauerhaft||``-Block.
-Änder dann im ``||basic:zeige Text||``-Block den Text von „Hello!“ zu deinen Namen.
+Änder dann im ``||basic:zeige Text||``-Block den Text von "Hello!" zu deinen Namen.
  
 ```blocks
 basic.forever(function() {

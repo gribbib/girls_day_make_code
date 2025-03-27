@@ -14,7 +14,8 @@
         "2025/tutorials/gd-rotes-gruenes-licht.md",
         "2025/pages/gd-rotes-gruenes-licht.md",
         "tutorial-info-cache.json",
-        "docs/my-tutorial.md"
+        "docs/my-tutorial.md",
+        "tutorial.md"
     ],
     "testFiles": [
         "test.ts"
@@ -27,5 +28,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

@@ -17,7 +17,7 @@ Dieses Projekt nutzt Funk, um den Status anderer @boardname@s zu kommunizieren. 
 
 Beginnen wir mit dem Code, der auf dem micro:bit der Ampel läuft. Verwende diesen Code nicht für die anderen Spieler!
 
-### Zustände
+## Zustände
 
 Wir definieren zwei _Zustände_ bzw. Spielbedingungen, genannt ``GRUENESLICHT`` und ``ROTESLICHT``. Eine Variable namens ``zustand`` speichert den aktuellen Spielzustand. Drückt der Ampelspieler ``A``, wechselt das Spiel in den „Grünes Licht“-Modus. Drückt er ``B``, wechselt der Zustand in den „Rotes Licht“-Modus. Die Funkgruppe für alle Spieler ist auf ``1`` eingestellt. Wir werden dieselbe Gruppe auch im Code des Spielers festlegen.
 
