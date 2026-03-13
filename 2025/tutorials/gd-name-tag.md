@@ -1,7 +1,8 @@
 # Namensschild (Name Tag)
  
 ## Verwandle dein micro:bit in ein digitales Namensschild @unplugged
- 
+
+Eine Änderung 13.03.2026 - 13:38 :-) 
 Zeige deinen Namen mit 💡 LEDs 💡! Programmiere den micro:bit, damit er deinen Namen über die Anzeige laufen lässt.
  
 ![Name scrolling on the LEDs](/static/mb/projects/name-tag/name-tag.gif)
