@@ -2,6 +2,7 @@
  
 ## Verwandle dein micro:bit in ein digitales Namensschild @unplugged
 
+Nochmal eine Änderung am 17.03.2026 - 06:52. Release kommt dann kurz darauf
 Änderung 14:22 Uhr. Eine Änderung 13.03.2026 - 13:38 :-) Noch eine Änderung 14:12
 Zeige deinen Namen mit 💡 LEDs 💡! Programmiere den micro:bit, damit er deinen Namen über die Anzeige laufen lässt.
  
