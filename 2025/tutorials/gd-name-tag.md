@@ -2,6 +2,7 @@
  
 ## Verwandle dein micro:bit in ein digitales Namensschild @unplugged
 
+24.03.2026 - 15:40 | Test mit scripts für die Darstellung der md. ####
 Nochmal eine Änderung am 17.03.2026 - 06:52. Release kommt dann kurz darauf
 Änderung 14:22 Uhr. Eine Änderung 13.03.2026 - 13:38 :-) Noch eine Änderung 14:12
 Zeige deinen Namen mit 💡 LEDs 💡! Programmiere den micro:bit, damit er deinen Namen über die Anzeige laufen lässt.
@@ -34,4 +35,19 @@ basic.forever(function() {})
 ```
 
 <script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+<script src="https://makecode.com/tutorial-embed.js"></script>
+<link rel="stylesheet" href="https://makecode.com/content/projects.css">
+<script>
+  makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");
+
+  // Render für Tutorial-spezifische Inline-Blöcke
+  if (window.makeCodeTutorialRender) {
+    // erwartet: root element oder whole document
+    makeCodeTutorialRender(document);
+  } else {
+    // fallback: warte kurz bis script geladen ist
+    window.addEventListener('load', function() {
+      if (window.makeCodeTutorialRender) makeCodeTutorialRender(document);
+    });
+  }
+</script>
