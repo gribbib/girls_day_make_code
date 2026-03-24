@@ -41,13 +41,5 @@ basic.forever(function() {})
   makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");
 
   // Render für Tutorial-spezifische Inline-Blöcke
-  if (window.makeCodeTutorialRender) {
-    // erwartet: root element oder whole document
-    makeCodeTutorialRender(document);
-  } else {
-    // fallback: warte kurz bis script geladen ist
-    window.addEventListener('load', function() {
-      if (window.makeCodeTutorialRender) makeCodeTutorialRender(document);
-    });
-  }
+  makeCodeTutorialRender(document);
 </script>
